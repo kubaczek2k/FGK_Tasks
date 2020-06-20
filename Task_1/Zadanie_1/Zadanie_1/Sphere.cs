@@ -6,13 +6,12 @@ namespace Zadanie_1
 {
     class Sphere
     {
-        private int x, y, z, r;
+        public int r { get; private set; }
         private Vector vector;
+
         public Sphere(int x, int y, int z, int r)
         {
-            this.x = x;
-            this.y = y;
-            this.z = z;
+            vector = new Vector(x, y, z);
             this.r = r;
         }
 
