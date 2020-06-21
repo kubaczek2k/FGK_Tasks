@@ -14,6 +14,9 @@ namespace Zadanie_1
             Sphere sphereFirst = new Sphere(0, 0, 0, 10);
             Radius r1 = new Radius(0, 0, -20, 0, 0, 0);
             Radius r2 = new Radius(0, 0, -20, 0, 100, 0);
+
+
+            Console.WriteLine(r1.ToString("r1"));
         }
     }
 }

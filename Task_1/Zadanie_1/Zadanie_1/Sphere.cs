@@ -7,13 +7,15 @@ namespace Zadanie_1
     class Sphere
     {
         public int r { get; private set; }
-        private Vector vector;
+        private Vector middle;
 
         public Sphere(int x, int y, int z, int r)
         {
-            vector = new Vector(x, y, z);
+            middle = new Vector(x, y, z);
             this.r = r;
         }
+
+        public Vector GetMiddle() { return this.middle; }
 
         //TODO: implement function to know if there was crossing point/s of sphere and line
         public int countDiscriminant()

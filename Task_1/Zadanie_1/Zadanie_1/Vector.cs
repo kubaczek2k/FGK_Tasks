@@ -15,5 +15,10 @@ namespace Zadanie_1
         public int x { get; private set; }
         public int y { get; private set; }
         public int z{ get; private set; }
+
+        public override string ToString()
+        {
+            return "Vector(" + this.x.ToString() + "," + this.y.ToString() + "," + this.z.ToString() + ")";
+        }
     }
 }

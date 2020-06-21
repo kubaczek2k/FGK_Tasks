@@ -7,6 +7,11 @@ namespace Zadanie_1
 {
     class Plane
     {
-        private Vector3 centralPoint;
+        private Vector centralPoint;
+
+        public Plane(int xCentral, int yCentral, int zCentral)
+        {
+            centralPoint = new Vector(xCentral, yCentral, zCentral);
+        }
     }
 }
